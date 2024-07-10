@@ -136,4 +136,37 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+/* styles.css */
+.carstars {
+    text-align: center;
+    padding: 20px;
+}
 
+.carstars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.carstar-item {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.carstar-item:hover {
+    transform: scale(1.05);
+}
+
+.carstar-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.carstar-item h3 {
+    margin-top: 10px;
+    color: #fff;
+}
