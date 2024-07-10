@@ -1,3 +1,5 @@
+// script.js
+
 function openModal(title, videoSrc) {
     document.getElementById('modalTitle').innerText = title;
     document.getElementById('modalVideo').src = videoSrc;
@@ -16,3 +18,4 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
